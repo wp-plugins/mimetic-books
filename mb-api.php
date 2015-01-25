@@ -3,7 +3,7 @@
 * Plugin Name: Mimetic Books API
 * Plugin URI: http://mimetic.com/
 * Description: A RESTful API for WordPress eBook Publishing with Mimetic Books
-* Version: 0.2.0
+* Version: 0.2.1
 * Author: David Gross
 * Author URI: http://davidgross.org/
 * License: GPL2
