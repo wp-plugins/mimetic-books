@@ -232,11 +232,12 @@ function mb_book_page_meta_save_postdata( $post_id) {
 	}
 
 	// OK, we're authenticated: we need to find and save the data
+	
+	// Update the publishers list, and to remove any publishers!
 	$pid = $_REQUEST['mb_publisher_id'];
 	$pid = trim($pid);
-	update_post_meta( $post_id, 'mb_publisher_id', $_REQUEST['mb_publisher_id'] );
-	$mb_api->write_publishers_file();
-		
+	update_post_meta( $post_id, 'mb_publisher_id', $pid );
+	$mb_api->write_publishers_file();		
 }
 
 
